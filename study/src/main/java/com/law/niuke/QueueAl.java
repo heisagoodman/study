@@ -6,11 +6,11 @@ package com.law.niuke;
  * @author law
  * @create 2019-02-24 下午7:10
  */
-public class Queue<T> {
+public class QueueAl<T> {
     private Node head;
     private Node tail;
 
-    public Queue() {
+    public QueueAl() {
     }
 
     public boolean isEmpty() {

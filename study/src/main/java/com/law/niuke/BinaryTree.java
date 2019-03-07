@@ -2,7 +2,6 @@ package com.law.niuke;
 
 
 import java.util.*;
-import java.util.zip.Adler32;
 
 /**
  * 描述：
@@ -166,7 +165,7 @@ public class BinaryTree {
      * @param node
      */
     public static void layerVisit(TreeNode node) {
-        Queue<TreeNode> queue = new Queue<TreeNode>();
+        QueueAl<TreeNode> queue = new QueueAl<TreeNode>();
         queue.add(node);
         while (!queue.isEmpty()) {
             TreeNode cur = queue.peek();
@@ -215,7 +214,6 @@ public class BinaryTree {
         TreeNode last = treeNode;
         while (cur != null){
             if(cur.left!=null){
-                path.add()
             }
         }
     }
@@ -238,6 +236,8 @@ public class BinaryTree {
         for (LinkedList<TreeNode> p : list){
             printPath(p);
         }
+        HashMap map = new HashMap();
+        map.get(1);
 //        list.forEach(path ->{printPath(path);});
     }
 }
